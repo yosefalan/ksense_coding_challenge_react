@@ -1,0 +1,48 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex
+}
+
+#users_table {
+  width: 550px;
+  margin: 50px;
+  cursor: pointer;
+}
+
+#posts_container {
+  width: 550px;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.thead {
+  color: #563D7C;
+}
+
+.navbar {
+  background-color: #563D7C;
+  color: white;
+}
+
+.nav-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav-elements a {
+  text-decoration: none;
+  color: white;
+}
+
+.highlight {
+  background-color: #ffe5e5;
+}
+
+.card {
+  margin-bottom: 25px
+}
